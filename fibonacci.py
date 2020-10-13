@@ -62,3 +62,23 @@ n = len(arr)
 x = 35
 print("Found at index:", 
       fibMonaccianSearch(arr, x, n)) 
+
+
+
+
+
+#another way to print fibonacci series 
+n=int(input("enter the value of n :"))
+a=0
+b=1
+sum=0
+count=0
+print("Fibonacci series:",end=" ")
+while(count <= n):
+  print(sum,end=" ")
+  count += 1
+  a=b
+  b=sum
+  sum=a+b
+  
+            

@@ -1,0 +1,44 @@
+@import './config';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: $dark-theme;
+    font-family: 'Pacifico', cursive;
+    // font-family: 'Lobster', cursive;
+    // font-family: 'Vampiro One', cursive;
+}
+
+.main__content {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 50px 0px;
+}
+.brand-text {
+    // border: 1px solid red;
+    font-size: 6rem;
+    position: relative;
+    z-index: 2;
+    // letter-spacing: 3pt;
+    text-transform: uppercase;
+    // transform: rotate(-10deg);
+    color: $text-color;
+    text-shadow: 1px 1px hsl(336, 38%, 44%),
+               2px 2px hsl(336, 38%, 35%),
+               3px 3px hsl(336, 38%, 34%),
+               4px 4px hsl(336, 38%, 33%),
+               5px 5px hsl(336, 38%, 33%),
+               6px 6px hsl(336, 38%, 32%),
+               7px 7px hsl(336, 38%, 31%),
+               8px 8px hsl(336, 38%, 30%),
+               9px 9px hsl(336, 38%, 29%),
+               10px 10px hsl(336, 38%, 28%),
+               10px 10px 30px rgba(0,0,0,.7),
+
+}
